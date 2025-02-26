@@ -203,7 +203,38 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+label {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 97%;
+  margin: 0 1.5%;
+}
 
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+}
+
+#submit:hover {
+  background-color: #BABABA;
+}
+
+body {
+  background-color: #949494;
+}
+
+h1, label, p{
+  font-family: "Forum", "Italiana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* ===== STATE STYLES ======= */
 
