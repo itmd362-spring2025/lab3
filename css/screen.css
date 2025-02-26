@@ -206,7 +206,7 @@ label {
 label {
   display: block;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   width: 97%;
   margin: 0 1.5%;
 }
@@ -234,6 +234,17 @@ h1, label, p{
   font-family: "Forum", "Italiana", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  padding: 5px;
 }
 
 /* ===== STATE STYLES ======= */
